@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Getting started with React</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Getting started with React">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Our CSS modifications -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/0bc67ca57a.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <!-- NAVIGATION BAR -->
+        <nav class="navbar navbar-default navbar-fixed-top navbar_mod">
+          <div class="row visible-xs">
+            <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+          </div>
+            <div class="hidden-xs container-fluid">
+                <ul class="nav navbar-nav navbar-left">
+                    <img class="navbar-brand" src="images/logo-surf-and-paddle.svg">
+
+                    <li><a>SURF & PADDLE CO. BLOG</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SEARCH</a></li>
+                    <img class="navbar-brand" src="images/glass.svg">
+                </ul>
+            </div>
+        </nav>
+        <!-- END OF NAVIGATION -->
+        <div class="jumbotron cover_image">
+            <div class="container text-center cover_text">
+                <h1 class="cover_text_top">SURF & PADDLE CO.</h1>
+                <h4 class="tag_line">An Ironyard Academy Project Est. Fall 2013</h4>
+            </div>
+        </div>
+    </header>
+    <!-- BODY OF THE PAGE -->
+    <div class="container body_text_left">
+        <div class="row">
+            <div class="col-sm-8">
+                <div id="list"></div>
+            </div>
+
+            <!-- RIGHT SIDE OF PAGE -->
+
+            <div class="col-sm-4 body_text_right">
+                <img src="https://unsplash.it/100/100?random" class="center-block img-circle img-responsive" alt="Responsive image">
+                <div class="text-center">
+                    <h5>JAKE WILLINGHAM</h5>
+                    <ul class="social_links text-center">
+                      <li><a href="#">Twitter</a></li>
+                      <li><a href="#">Facebook</a></li>
+                      <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <img src="https://unsplash.it/400/400?random" class="center-block  img-responsive" alt="Responsive image">
+                <p class="text-right small"><u>About This Ad</u></p>
+                <h5 class="sidebar">SIDEBAR SECTION HEADING</h5>
+                <p class="small text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTTOM OF PAGE -->
+    <div class="container bottom_container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h1>MOST POPULAR POSTS</h1>
+            </div>
+        </div>
+    </div>
+    <!-- FLEX BOX WITH PHOTOS -->
+    <div class="container">
+        <div class="row">
+            <div class="flex_container col-sm-12">
+                <div class="top_photo_container photos">
+                    <div class="container first_photo">
+                        <div class="above_photo_text"></div>
+                        <h4 class="photo_text">ANOTHER COOL POST</h4>
+                    </div>
+                    <div class="container second_photo">
+                        <div class="above_photo_text"></div>
+                        <h4 class="photo_text">POST TITLE</h4>
+                    </div>
+                    <div class="container third_photo">
+                        <div class="above_photo_text"></div>
+                        <h4 class="photo_text">HERE'S ANOTHER LONGER POST TITLE</h4>
+                    </div>
+                    <div class="container fourth_photo">
+                        <div class="above_photo_text"></div>
+                        <h4 class="photo_text">OH COOL A POST!</h4>
+                    </div>
+                </div>
+                <div class="copyright small">
+                  <div class="copyright_left_side">
+                    <div class="text-center copyright_ironyard">
+                      <p>
+                        <img class="copyright_image center-block  img-responsive" alt="Responsive image" src="images/ironyard.svg">
+                        <span class="copyright_text">The Ironyard Copyright 2013, All Rights Reserved</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="copyright_right_side">
+                    <ul class="text-center footer-links">
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Bio</a></li>
+                      <li><a href="#">Admin</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.bundle.js"></script>
+</body>
+
+</html>
